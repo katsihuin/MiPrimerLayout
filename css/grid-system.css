@@ -1,0 +1,122 @@
+* {
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+	text-align: center;
+}
+
+.container2 {
+	max-width: 1200px;
+	margin:0px auto;
+	width: 70%;
+	height:90%;
+	border:2px solid gray;
+	margin: 50px 50px 50px 50px;
+}
+
+.coder{
+	border-radius: 200px;
+	width: 200px;
+	margin-top: 20px;
+}
+
+h2{
+	font-size: 26px;
+}
+
+.container2 p{
+	margin:10px 30px 10px 30px;
+	font-size: 18px;
+}
+h4{
+	font-size: 24px;
+	margin-left: 30px;
+	text-align: left;
+}
+.skills{
+	width: 500px;
+	height: 30px;
+	background:gray;
+	margin-left: 65px;
+	color:white;
+	text-align: left;
+	padding: 10px;
+}
+
+.css{
+	width: 300px;
+	height: 30px;
+	background:gray;
+	margin-left: 65px;
+	color:white;
+	text-align: left;
+	padding: 10px;
+	margin-top: 10px;
+}
+.java{
+	width: 100px;
+	height: 30px;
+	background:gray;
+	margin-left: 65px;
+	color:white;
+	text-align: left;
+	padding: 10px;
+	margin-top: 10px;
+}
+.portafolio{
+	margin: 10px;
+	list-style: none;
+	display: inline-block;
+	text-align: left;
+	padding-left: 30px;
+	margin-left: 30px;
+
+}
+.portafolio li{
+	display: inline-block;
+	width: 28%;
+	margin: 10px;
+}
+.portafolio img{
+	
+    width: 80%;
+}
+
+.row:before, .row:after{
+	content: " ";
+	display: table;
+}
+
+.row:after 
+	clear:border;
+}
+ 
+[class*="col-"] {
+	min-height:7pc;
+	padding: 12px;
+	float:left;
+}
+
+.col-1 {
+	width: 8.333333%
+}
+
+.col-2 {
+	width: 16.666667%;
+}
+
+.col-3 {
+	width: 25%;
+}
+
+.col-4 {
+	width: 33.333333%;
+}
+
+.col-5 {
+	width: 41.666667%;
+}
+
+.img-resSponsive {
+	width: 100%;
+}
